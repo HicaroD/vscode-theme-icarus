@@ -1,4 +1,4 @@
 # Icarus
 A port of [Icarus](https://github.com/HicaroD/Icarus) theme to Visual Studio Code.
 
-![icarus](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.MXAYPsGN9bWLRpT5tO16NgHaGC%26pid%3DApi&f=1)
+![icarus](https://camo.githubusercontent.com/f01008685c5a9bf0f5a8eb7db089cd1f14736ba2afe8b42a48235b4e1c7ed821/68747470733a2f2f65787465726e616c2d636f6e74656e742e6475636b6475636b676f2e636f6d2f69752f3f753d6874747073253341253246253246632e6d716c352e636f6d253246362532463830322532466963617275735f6e65772e6a706726663d31266e6f66623d31)
