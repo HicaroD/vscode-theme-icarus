@@ -15,7 +15,6 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#546E7A"
 			}
 		},
