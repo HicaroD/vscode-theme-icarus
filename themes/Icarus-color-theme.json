@@ -2,9 +2,9 @@
 	"name": "Icarus",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
+		"editor.background": "#1d2021",
 		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
+		"activityBarBadge.background": "#40BDFF",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
 	"tokenColors": [
@@ -15,8 +15,17 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#928374", 
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "String definition",
+			"scope": [
+				"punctuation.definition.string",
+			],
+			"settings": {
+				"foreground": "#B19CD9",
 			}
 		},
 		{
@@ -26,7 +35,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
@@ -49,6 +58,21 @@
 			}
 		},
 		{
+			"name": "Brackets",
+			"scope": "punctuation.brackets",
+			"settings": {
+				"foreground": "#FFFFFF",
+			}
+		},
+		{
+			"name": "Meta attribute",
+			"scope":"meta.attribute",
+			"settings": {
+				"foreground": "#DEDD5A",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Keyword, Storage",
 			"scope": [
 				"keyword",
@@ -56,7 +80,8 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#1E90FF"
+
 			}
 		},
 		{
@@ -87,20 +112,21 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#40BDFF"
 			}
 		},
 		{
 			"name": "Function, Special Method",
 			"scope": [
 				"entity.name.function",
-				"meta.function-call",
+				"meta.function-call.generic",
 				"variable.function",
 				"support.function",
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#FF3D23", 
+				"fontStyle": "bold",
 			}
 		},
 		{
@@ -123,9 +149,24 @@
 			}
 		},
 		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"name": "Statement",
 			"scope": [
-				"constant.numeric",
+				"keyword.control",
+			],
+			"settings": {
+				"foreground": "#40BDFF",
+			}
+		},
+		{
+			"name": "Character",
+			"scope":"constant.character",
+			"settings": {
+				"foreground": "#C8A2C8",
+			}
+		},
+		{
+			"name": "Constant, Function Argument, Tag Attribute, Embedded",
+			"scope": [
 				"constant.language",
 				"support.constant",
 				"constant.character",
@@ -135,7 +176,39 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#40BDFF"
+			}
+		},
+		{
+			"name": "Function Arguments",
+			"scope": "meta.function-call.arguments",
+			"settings": {
+				"foreground": "#FFFFFF",
+			}
+		},
+		{
+			"name": "Number",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#E32791",
+			}
+		},
+		{
+			"name": "Namespace",
+			"scope": [
+				"entity.name.namespace",
+			],
+			"settings": {
+				"foreground": "#40BDFF",
+			}
+		},
+		{
+			"name": "float",
+			"scope": [
+				"constant.numeric.float",
+			],
+			"settings": {
+				"foreground": "#D75F5F",
 			}
 		},
 		{
@@ -150,7 +223,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#B19CD9"
 			}
 		},
 		{
@@ -168,6 +241,9 @@
 			"settings": {
 				"foreground": "#FFCB6B"
 			}
+		},
+		{
+			"name": "Namespace",
 		},
 		{
 			"name": "Entity Types",
@@ -623,6 +699,16 @@
 			],
 			"settings": {
 				"foreground": "#EEFFFF"
+			}
+		},
+		{
+			"name": "Macro",
+			"scope": [
+				"entity.name.function.macro",
+			],
+			"settings": {
+				"foreground": "#DEDD5A",
+				"fontStyle": "bold"
 			}
 		}
 	]
