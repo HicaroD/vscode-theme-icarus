@@ -2,8 +2,8 @@
 	"name": "Icarus",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#1d2021",
-		"editor.foreground": "#eeffff",
+		"editor.background": "#202020",
+		"editor.foreground": "#f9f5d7",
 		"activityBarBadge.background": "#40BDFF",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
@@ -80,8 +80,14 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#1E90FF"
-
+				"foreground": "#FF3D23",
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "#1E90FF",
 			}
 		},
 		{
@@ -125,7 +131,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#FF3D23", 
+				"foreground": "#00B7EB", 
 				"fontStyle": "bold",
 			}
 		},
@@ -176,7 +182,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#40BDFF"
+				"foreground": "#FF3D23"
 			}
 		},
 		{
@@ -190,7 +196,7 @@
 			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#E32791",
+				"foreground": "#EE7777",
 			}
 		},
 		{
@@ -243,7 +249,25 @@
 			}
 		},
 		{
-			"name": "Namespace",
+			"name": "Entity name type",
+			"scope":"entity.name.type",
+			"settings": {
+				"foreground": "#F9A602",
+			}
+		},
+		{
+			"name": "Entity name type",
+			"scope":"entity.name.type.lifetime",
+			"settings": {
+				"foreground": "#5FD7A7",
+			}
+		},
+		{
+			"name": "Punctuation definition lifetime",
+			"scope":"punctuation.definition.lifetime",
+			"settings": {
+				"foreground": "#5FD7A7",
+			}
 		},
 		{
 			"name": "Entity Types",
@@ -703,13 +727,10 @@
 		},
 		{
 			"name": "Macro",
-			"scope": [
-				"entity.name.function.macro",
-			],
+			"scope": "entity.name.function.macro",
 			"settings": {
 				"foreground": "#DEDD5A",
-				"fontStyle": "bold"
 			}
-		}
+		},
 	]
 }
