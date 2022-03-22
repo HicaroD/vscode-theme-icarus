@@ -2,14 +2,16 @@
     "name": "icarus",
     "displayName": "Icarus",
     "description": "A dark based color scheme for Visual Studio Code.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.65.0"
     },
+    "icon": "images/icarus.jpg",
     "repository": {"url": "https://github.com/HicaroD/vscode-theme-icarus"},
     "categories": [
         "Themes"
     ],
+    "publisher": "Hcaro",
     "contributes": {
         "themes": [
             {
